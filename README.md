@@ -12,6 +12,24 @@
   sass --watch scss/style.scss css/style.css
   ```
 
+  Or
+
+  try "Live Sass Compiler" Extension in VS Code
+
+  By installing and clicking sass watch, it automatically converts scss file to css file.
+
+  You can customize setting in settings.json(in vscode) like below
+  ```
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css"
+        }
+    ],
+    "liveSassCompile.settings.generateMap": false
+  ```
+
 * Benefit of using sass
 
   When you write css code, you might have to write same decoration for multiple times.  
