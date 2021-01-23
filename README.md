@@ -12,7 +12,7 @@
   sass --watch scss/style.scss css/style.css
   ```
 
-  Or
+Or
 
   try "Live Sass Compiler" Extension in VS Code
 
