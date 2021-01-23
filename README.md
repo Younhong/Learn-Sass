@@ -14,7 +14,7 @@
 
   3. VS Code "Live Sass Compiler" Extension
 
-  >> By installing and clicking sass watch, it automatically converts scss file to css file. You can add customized setting in settings.json(in vscode) like below
+  * By installing and clicking sass watch, it automatically converts scss file to css file. You can add customized setting in settings.json(in vscode) like below
   
   ```
     "liveSassCompile.settings.formats": [
